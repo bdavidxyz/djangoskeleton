@@ -3,7 +3,9 @@ import os
 import subprocess
 import sys
 
-# Créer un environnement virtuel
-subprocess.run([sys.executable, "-m", "venv", ".venv"])
+# Create new folder myapp
+os.makedirs("myapp", exist_ok=True)
 
+# Create  "myapp/.venv"
+subprocess.run([sys.executable, "-m", "venv", "myapp/.venv"])
 
