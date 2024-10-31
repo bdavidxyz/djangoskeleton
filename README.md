@@ -17,6 +17,5 @@ py create_django_app.py
 ## Restart from scratch
 
 ```shell
-rm -rf myapp
-py create_django_app.py
+rm -rf myapp && py create_django_app.py
 ```
